@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Efecto de Partículas</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
         .large-header {
             position: relative;
             width: 100%;
@@ -25,8 +31,10 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 4em;
+            font-family: 'Roboto', sans-serif;
             font-weight: 300;
+            font-size: 48px;
+            letter-spacing: 2px;
         }
 
         .thin {
@@ -37,7 +45,7 @@
 <body>
     <div id="large-header" class="large-header">
         <canvas id="demo-canvas"></canvas>
-        <h1 class="main-title">Connect <span class="thin">Three</span></h1>
+        <h1 class="main-title">CASERIAS</h1>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script>
